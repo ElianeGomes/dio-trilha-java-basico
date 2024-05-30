@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-
+        
         final int numero;
         final String agencia;
         final String nomeCliente;
@@ -31,10 +31,22 @@ public class ContaTerminal {
         nomeCliente= nome+" "+sobreNome;
         System.out.println("************************************");
 
-        sc.close();
+        
 
         System.out.println("************************************");
         System.out.println("Olá "+nomeCliente+", \nobrigado por criar uma conta em nosso banco, \nsua agência é "+agencia+", \nconta "+numero+" \ne seu saldo "+saldo+" já está disponível para saque.");
         System.out.println("************************************");
+        
+        sc.close();
+        
+       
+        
+       
+
+
+
+
+
+
     }
 }
